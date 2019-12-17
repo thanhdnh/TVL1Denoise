@@ -4,6 +4,7 @@
 
 close all;
 clc;
+clearvars;
 
 I=imread('cameraman.tif');
 In=imnoise(I,'salt & pepper', .4);
